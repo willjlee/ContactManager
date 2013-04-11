@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ContactTestThing" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\William\\Documents\\GitHub\\ContactManager\\ContactManager\\ContactManager\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\William\\Documents\\GitHub\\ContactManager\\ContactManager\\ContactManager\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ContactManagerContext-Web.config Connection String" description="" value="Data Source=tcp:zxjlcwaehu.database.windows.net,1433;Initial Catalog=ContactDB;User ID=contactsadmin@zxjlcwaehu;Password=B1n2n3s4" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\William\\Documents\\GitHub\\ContactManager\\ContactManager\\ContactManager\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ContactManagerContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:zxjlcwaehu.database.windows.net,1433;Initial Catalog=ContactDB;User Id=contactsadmin@zxjlcwaehu;Password=B1n2n3s4" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\William\\Documents\\GitHub\\ContactManager\\ContactManager\\ContactManager\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

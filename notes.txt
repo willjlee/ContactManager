@@ -1,0 +1,10 @@
+Notes: Mobile-friendly REST service using ASP.NET Web API and SQL
+
+https://www.windowsazure.com/en-us/develop/net/tutorials/rest-service-using-web-api/
+
+----
+
+Azure hosting provides a publishsettings file you can import to VS for easy deployment. Right click the project and publish using this file.
+	-if the preview on publishing doesn't work, build the project and try again.
+
+Package manager console (tools>library package manager>package manager console) can be used for initial database setup. see tutorial for specific commands.
